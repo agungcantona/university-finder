@@ -1,4 +1,3 @@
-/* eslint-disable prefer-promise-reject-errors */
 class DataSource {
   static async searchUniv (keyword) {
     try {
@@ -7,7 +6,7 @@ class DataSource {
       if (responseJson.length >= 1) {
         return Promise.resolve(responseJson)
       } else {
-        return Promise.reject((`${keyword} is not found`))
+        return Promise.reject(new Error(`${keyword} is not found`))
       }
     } catch (error) {
       return error
