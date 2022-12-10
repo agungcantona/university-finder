@@ -1,0 +1,14 @@
+API : 
+
+http://universities.hipolabs.com/search?name=
+
+[
+	{
+		"country": "Indonesia", 
+		"domains": ["its.ac.id"], 
+		"web_pages": ["http://www.its.ac.id/"], 
+		"alpha_two_code": "ID", 
+		"name": "Institut Teknologi Sepuluh Nopember", 
+		"state-province": null
+	}
+]
